@@ -94,6 +94,7 @@ function App() {
               margin:0 1rem;
               font-size: 1.6rem;
               color:#fff;
+              cursor: pointer;
           }
           
           .header .navbar a:hover{
@@ -205,7 +206,7 @@ function App() {
               width: 100%;
               text-align: center;
           }
-          
+
           .footer{
             background:var(--black);
             text-align: center;
