@@ -13,8 +13,8 @@ function Pop_up(props) {
         <>
             <style type='text/css'>
                 {`
-                    *{
-                        z-index: 9999999999;
+                    Modal{
+                        z-index: 900;
                     }
                 `}
             </style>
@@ -29,7 +29,7 @@ function Pop_up(props) {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
-                        Save information
+                        Close
                     </Button>
                 </Modal.Footer>
             </Modal>
