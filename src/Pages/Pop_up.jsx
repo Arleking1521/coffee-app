@@ -13,8 +13,8 @@ function Pop_up(props) {
         <>
             <style type='text/css'>
                 {`
-                    Modal{
-                        z-index: 900;
+                    .fade{
+                        z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
                     }
                 `}
             </style>
@@ -26,30 +26,7 @@ function Pop_up(props) {
                 </Modal.Header>
                 <Modal.Body>
                     <Form>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Team Name</Form.Label>
-                            <Form.Control
-                                type="name"
-                                placeholder="Enter your team name"
-                                autoFocus
-                            />
-                        </Form.Group>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput">
-                            <Form.Label>City</Form.Label>
-                            <Form.Control
-                                type="city"
-                                placeholder="Enter your city"
-                                autoFocus
-                            />
-                        </Form.Group>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
-                            <Form.Label>Phone number</Form.Label>
-                            <Form.Control
-                                type="Number"
-                                placeholder="Enter your phone number"
-                                autoFocus
-                            />
-                        </Form.Group>
+                        <Form.Label>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Form.Label>
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
