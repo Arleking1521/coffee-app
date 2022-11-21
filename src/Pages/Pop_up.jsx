@@ -34,7 +34,6 @@ function Pop_up(props) {
                         background-color: var(--bs-backdrop-bg);
                       }
                     .modal{
-                        padding-right: 17px;
                         display: block;
                         --bs-modal-margin: 1.75rem;
                         --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -42,15 +41,13 @@ function Pop_up(props) {
                         --bs-modal-width: 500px;
                         --bs-modal-padding: 1rem;
                         --bs-modal-margin: 0.5rem;
-                        --bs-modal-color: ;
+                        --bs-modal-color: black ;
                         --bs-modal-bg: #fff;
                         --bs-modal-border-color: var(--bs-border-color-translucent);
                         --bs-modal-border-width: 1px;
                         --bs-modal-border-radius: 0.5rem;
                         --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
                         --bs-modal-inner-border-radius: calc(0.5rem - 1px);
-                        --bs-modal-header-padding-x: 1rem;
-                        --bs-modal-header-padding-y: 1rem;
                         --bs-modal-header-padding: 1rem 1rem;
                         --bs-modal-header-border-color: var(--bs-border-color);
                         --bs-modal-header-border-width: 1px;
@@ -64,19 +61,13 @@ function Pop_up(props) {
                         left: 0;
                         z-index: var(--bs-modal-zindex);
                         display: none;
-                        width: 100%;
-                        height: 100%;
-                        overflow-x: hidden;
-                        overflow-y: auto;
-                        outline: 0;
-                        margin: 0;
-                        padding: 0;
-                        padding-right: 0px;
-                        box-sizing: border-box;
-                        outline: none;
-                        border: none;
-                        text-decoration: none;
-                        text-transform: capitalize;
+                        min-width: 100px;
+                        min-height: 500px;
+                        padding-top: 10%;
+                        padding-right:20%;
+                        padding-bottom: 10%;
+                        padding-left:20%;
+                       
                       }
                       .modal.show .modal-dialog {
                         transform: none;
@@ -137,7 +128,6 @@ function Pop_up(props) {
                         height: 1em;
                         padding: .25em .25em;
                         color: #000;
-                        background: transparent url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23000%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e") center/1em auto no-repeat;
                         border: 0;
                         border-radius: .375rem;
                         opacity: .5;
@@ -167,6 +157,11 @@ function Pop_up(props) {
                       }
                       .form-label {
                         margin-bottom: .5rem;
+                        font-size:16px;
+                      }
+                      .modal-title {
+                        margin-bottom: .5rem;
+                        font-size:20px;
                       }
                       .modal-footer {
                         display: flex;
@@ -186,7 +181,7 @@ function Pop_up(props) {
             <button className="btn" onClick={handleShow}>Read More</button>
 
             <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
+                <Modal.Header>
                     <Modal.Title>Registration to game {props.name}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
