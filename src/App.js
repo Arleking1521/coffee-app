@@ -18,7 +18,6 @@ function App() {
   return (
     <>
       <Router>
-        <body>
           <header className="header">
 
             <a href="#" className="logo">
@@ -103,7 +102,7 @@ function App() {
               <Nav.Link as={Link} to="/about">about</Nav.Link>
             </Navbar>
           </section>
-        </body>
+        
       </Router>
     </>
   );
