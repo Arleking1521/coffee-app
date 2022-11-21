@@ -6,10 +6,6 @@ import {  Nav, Navbar } from 'react-bootstrap'
 import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
 import About from "./Pages/About";
-import Products from "./Pages/Products";
-import Review from "./Pages/Review";
-import Contact from "./Pages/Contact";
-import Blogs from "./Pages/Blog";
 
 import Logo from "./images/logo.png";
 import Ci1 from "./images/cart-item-1.png";
@@ -276,10 +272,6 @@ function App() {
               <Nav.Link as={Link} to="/">home</Nav.Link>
               <Nav.Link as={Link} to="/about">about</Nav.Link>
               <Nav.Link as={Link} to="/menu">menu</Nav.Link>
-              <Nav.Link as={Link} to="/products">products</Nav.Link>
-              <Nav.Link as={Link} to="/review">review</Nav.Link>
-              <Nav.Link as={Link} to="/contact">contact</Nav.Link>
-              <Nav.Link as={Link} to="/blogs">blogs</Nav.Link>
             </Navbar>
 
             <div className="icons">
@@ -335,10 +327,6 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route exact path='/menu' element={<Menu />} />
             <Route exact path='/about' element={<About />} />
-            <Route exact path='/products' element={<Products />} />
-            <Route exact path='/review' element={<Review />} />
-            <Route exact path='/contact' element={<Contact />} />
-            <Route exact path='/blogs' element={<Blogs />} />
           </Routes>
 
 
@@ -356,10 +344,6 @@ function App() {
               <Nav.Link as={Link} to="/">home</Nav.Link>
               <Nav.Link as={Link} to="/menu">menu</Nav.Link>
               <Nav.Link as={Link} to="/about">about</Nav.Link>
-              <Nav.Link as={Link} to="/products">products</Nav.Link>
-              <Nav.Link as={Link} to="/review">review</Nav.Link>
-              <Nav.Link as={Link} to="/contact">contact</Nav.Link>
-              <Nav.Link as={Link} to="/blogs">blogs</Nav.Link>
             </Navbar>
           </section>
         </body>

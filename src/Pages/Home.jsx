@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Backimg from "../images/home-img.jpeg";
+import Pop_up from './Pop_up';
 
 // import images in review 
 import quoteimg from "../images/quote-img.png";
@@ -234,7 +235,7 @@ export default class Home extends Component {
                                 <a href="#" className="title">tasty and refreshing coffee</a>
                                 <span> 21st may, 2021</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                                <a href="#" className="btn">read more</a>
+                                <Pop_up name='Tasty and refreshing coffee'/>
                             </div>
                         </div>
 
