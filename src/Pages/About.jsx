@@ -11,7 +11,7 @@ export default class About extends Component {
                     <div class="row">
 
                         <div class="image">
-                            <img src="images/about-img.jpeg" alt="">
+                            <img src="images/about-img.jpeg" alt=""/>
                         </div>
 
                         <div class="content">
