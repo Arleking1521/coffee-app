@@ -38,6 +38,7 @@ function App() {
             text-decoration: none;
             text-transform: capitalize;
             transition: .2s linear;
+            font-size: 62.5%;
           }
 
           body{
