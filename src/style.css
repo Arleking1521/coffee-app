@@ -230,6 +230,10 @@ section{
     color:#eee;
 }
 
+.about{
+    margin-top: 95px;
+}
+
 .about .row{
     display: flex;
     align-items: center;
@@ -259,6 +263,10 @@ section{
     color:#ccc;
     padding:1rem 0;
     line-height: 1.8;
+}
+
+.menu{
+    margin-top: 95px;
 }
 
 .menu .box-container{
