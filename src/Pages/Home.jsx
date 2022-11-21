@@ -90,7 +90,7 @@ export default class Home extends Component {
                                 <a href="#" className="title">tasty and refreshing coffee</a>
                                 <span> 21st may, 2022</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                                <a href="#" className="btn">read more</a>
+                                <Pop_up name='Tasty and refreshing coffee'/>
                             </div>
                         </div>
 
@@ -102,7 +102,7 @@ export default class Home extends Component {
                                 <a href="#" className="title">tasty and refreshing coffee</a>
                                 <span> 21st may, 2021</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                                <a href="#" className="btn">read more</a>
+                                <Pop_up name='Tasty and refreshing coffee'/>
                             </div>
                         </div>
 
