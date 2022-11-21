@@ -25,9 +25,9 @@ function App() {
             </a>
 
             <Navbar className="navbar">
-              <Nav.Link as={Link} to="/">home</Nav.Link>
-              <Nav.Link as={Link} to="/about">about</Nav.Link>
-              <Nav.Link as={Link} to="/menu">menu</Nav.Link>
+              <Nav.Link as={Link} to="/">HOME</Nav.Link>
+              <Nav.Link as={Link} to="/about">ABOUT</Nav.Link>
+              <Nav.Link as={Link} to="/menu">MENU</Nav.Link>
             </Navbar>
 
             <div className="icons">
