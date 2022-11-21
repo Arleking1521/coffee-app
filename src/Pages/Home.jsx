@@ -87,10 +87,10 @@ export default class Home extends Component {
                                 <img src={Blog1} alt=""/>
                             </div>
                             <div className="content">
-                                <a href="#" className="title">tasty and refreshing coffee</a>
+                                <a href="#" className="title">tasty coffee</a>
                                 <span> 21st may, 2022</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                                <Pop_up name='Tasty and refreshing coffee'/>
+                                <Pop_up name='Tasty coffee'/>
                             </div>
                         </div>
 
@@ -99,10 +99,10 @@ export default class Home extends Component {
                                 <img src={Blog2} alt=""/>
                             </div>
                             <div className="content">
-                                <a href="#" className="title">tasty and refreshing coffee</a>
+                                <a href="#" className="title">refreshing coffee</a>
                                 <span> 21st may, 2021</span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                                <Pop_up name='Tasty and refreshing coffee'/>
+                                <Pop_up name='Refreshing coffee'/>
                             </div>
                         </div>
 
