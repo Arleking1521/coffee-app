@@ -17,7 +17,7 @@ export default class Products extends Component {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="images/product-1.png" alt="">
+                                <img src="images/product-1.png" alt=""/>
                             </div>
                             <div class="content">
                                 <h3>Nicaragua coffee</h3>
@@ -39,7 +39,7 @@ export default class Products extends Component {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="images/product-2.png" alt="">
+                                <img src="images/product-2.png" alt=""/>
                             </div>
                             <div class="content">
                                 <h3>Columbia coffee</h3>
@@ -61,7 +61,7 @@ export default class Products extends Component {
                                 <a href="#" class="fas fa-eye"></a>
                             </div>
                             <div class="image">
-                                <img src="images/product-3.png" alt="">
+                                <img src="images/product-3.png" alt=""/>
                             </div>
                             <div class="content">
                                 <h3>Peru coffee</h3>

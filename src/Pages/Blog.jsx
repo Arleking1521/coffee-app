@@ -4,8 +4,6 @@ export default class Blog extends Component {
     render() {
         return (
             <>
-                <!-- blogs section starts  -->
-
                 <section class="blogs" id="blogs">
 
                     <h1 class="heading"> our <span>blogs</span> </h1>
@@ -14,7 +12,7 @@ export default class Blog extends Component {
 
                         <div class="box">
                             <div class="image">
-                                <img src="images/blog-1.jpeg" alt="">
+                                <img src="images/blog-1.jpeg" alt=""/>
                             </div>
                             <div class="content">
                                 <a href="#" class="title">tasty and refreshing coffee</a>
@@ -26,7 +24,7 @@ export default class Blog extends Component {
 
                         <div class="box">
                             <div class="image">
-                                <img src="images/blog-2.jpeg" alt="">
+                                <img src="images/blog-2.jpeg" alt=""/>
                             </div>
                             <div class="content">
                                 <a href="#" class="title">tasty and refreshing coffee</a>
@@ -38,7 +36,7 @@ export default class Blog extends Component {
 
                         <div class="box">
                             <div class="image">
-                                <img src="images/blog-3.jpeg" alt="">
+                                <img src="images/blog-3.jpeg" alt=""/>
                             </div>
                             <div class="content">
                                 <a href="#" class="title">tasty and refreshing coffee</a>
@@ -51,8 +49,6 @@ export default class Blog extends Component {
                     </div>
 
                 </section>
-
-                <!-- blogs section ends -->
             </>
         )
     }
