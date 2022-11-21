@@ -58,10 +58,10 @@ function Pop_up(props) {
                         --bs-modal-footer-border-width: 1px;
                         position: fixed;
                         top: 30%;
-                        left: 20%;
+                        left: calc(50% - 400px);
                         z-index: var(--bs-modal-zindex);
                         display: flex;
-                        width: calc(50% - 400px);
+                        width: 800px;
                         height: 100%;
                         
                        
