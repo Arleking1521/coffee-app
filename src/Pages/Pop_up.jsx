@@ -57,16 +57,13 @@ function Pop_up(props) {
                         --bs-modal-footer-border-color: var(--bs-border-color);
                         --bs-modal-footer-border-width: 1px;
                         position: fixed;
-                        top: 0;
-                        left: 0;
+                        top: 30%;
+                        left: 20%;
                         z-index: var(--bs-modal-zindex);
-                        display: none;
-                        min-width: 100px;
-                        min-height: 500px;
-                        padding-top: 10%;
-                        padding-right:20%;
-                        padding-bottom: 10%;
-                        padding-left:20%;
+                        display: flex;
+                        width: 800px;
+                        height: 100%;
+                        
                        
                       }
                       .modal.show .modal-dialog {
