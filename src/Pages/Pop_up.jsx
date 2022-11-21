@@ -63,9 +63,8 @@ function Pop_up(props) {
                         display: flex;
                         width: 800px;
                         height: 100%;
-                        
-                       
                       }
+                      
                       .modal.show .modal-dialog {
                         transform: none;
                       }
@@ -154,11 +153,11 @@ function Pop_up(props) {
                       }
                       .form-label {
                         margin-bottom: .5rem;
-                        font-size:16px;
+                        font-size: 18px;
                       }
                       .modal-title {
                         margin-bottom: .5rem;
-                        font-size:20px;
+                        font-size: 30px;
                       }
                       .modal-footer {
                         display: flex;
