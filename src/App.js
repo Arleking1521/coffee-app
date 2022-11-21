@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import {  Nav, Navbar } from 'react-bootstrap'
 
 import Home from "./Pages/Home";
 import Menu from "./Pages/Menu";
@@ -264,67 +265,67 @@ function App() {
       </style>
       <Router>
         <body>
-          <header class="header">
+          <header className="header">
 
-            <a href="#" class="logo">
+            <a href="#" className="logo">
               <img src={Logo} alt="" />
             </a>
 
-            <nav class="navbar">
-              <a as={Link} to="/">home</a>
-              <a as={Link} to="/about">about</a>
-              <a as={Link} to="/menu">menu</a>
-              <a as={Link} to="/products">products</a>
-              <a as={Link} to="/review">review</a>
-              <a as={Link} to="/contact">contact</a>
-              <a as={Link} to="/blogs">blogs</a>
-            </nav>
+            <Navbar className="navbar">
+              <Nav.Link as={Link} to="/">home</Nav.Link>
+              <Nav.Link as={Link} to="/about">about</Nav.Link>
+              <Nav.Link as={Link} to="/menu">menu</Nav.Link>
+              <Nav.Link as={Link} to="/products">products</Nav.Link>
+              <Nav.Link as={Link} to="/review">review</Nav.Link>
+              <Nav.Link as={Link} to="/contact">contact</Nav.Link>
+              <Nav.Link as={Link} to="/blogs">blogs</Nav.Link>
+            </Navbar>
 
-            <div class="icons">
-              <div class="fas fa-search" id="search-btn"></div>
-              <div class="fas fa-shopping-cart" id="cart-btn"></div>
-              <div class="fas fa-bars" id="menu-btn"></div>
+            <div className="icons">
+              <div className="fas fa-search" id="search-btn"></div>
+              <div className="fas fa-shopping-cart" id="cart-btn"></div>
+              <div className="fas fa-bars" id="menu-btn"></div>
             </div>
 
-            <div class="search-form">
+            <div className="search-form">
               <input type="search" id="search-box" placeholder="search here..." />
-              <label for="search-box" class="fas fa-search"></label>
+              <label for="search-box" className="fas fa-search"></label>
             </div>
 
-            <div class="cart-items-container">
-              <div class="cart-item">
-                <span class="fas fa-times"></span>
+            <div className="cart-items-container">
+              <div className="cart-item">
+                <span className="fas fa-times"></span>
                 <img src={Ci1} alt="" />
-                <div class="content">
+                <div className="content">
                   <h3>cart item 01</h3>
-                  <div class="price">$15.99/-</div>
+                  <div className="price">$15.99/-</div>
                 </div>
               </div>
-              <div class="cart-item">
-                <span class="fas fa-times"></span>
+              <div className="cart-item">
+                <span className="fas fa-times"></span>
                 <img src={Ci2} alt="" />
-                <div class="content">
+                <div className="content">
                   <h3>cart item 02</h3>
-                  <div class="price">$15.99/-</div>
+                  <div className="price">$15.99/-</div>
                 </div>
               </div>
-              <div class="cart-item">
-                <span class="fas fa-times"></span>
+              <div className="cart-item">
+                <span className="fas fa-times"></span>
                 <img src={Ci3} alt="" />
-                <div class="content">
+                <div className="content">
                   <h3>cart item 03</h3>
-                  <div class="price">$15.99/-</div>
+                  <div className="price">$15.99/-</div>
                 </div>
               </div>
-              <div class="cart-item">
-                <span class="fas fa-times"></span>
+              <div className="cart-item">
+                <span className="fas fa-times"></span>
                 <img src={Ci4} alt="" />
-                <div class="content">
+                <div className="content">
                   <h3>cart item 04</h3>
-                  <div class="price">$15.99/-</div>
+                  <div className="price">$15.99/-</div>
                 </div>
               </div>
-              <a href="#" class="btn">checkout now</a>
+              <a href="#" className="btn">checkout now</a>
             </div>
 
           </header>
@@ -340,25 +341,25 @@ function App() {
           </Routes>
 
 
-          <section class="footer">
+          <section className="footer">
 
-            <div class="share">
-              <a href="https://www.facebook.com/profile.php?id=100009478044036" class="fab fa-facebook-f"></a>
-              <a href="https://twitter.com/?lang=ru" class="fab fa-twitter"></a>
-              <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
-              <a href="https://ru.linkedin.com/" class="fab fa-linkedin"></a>
-              <a href="https://ru.pinterest.com/" class="fab fa-pinterest"></a>
+            <div className="share">
+              <a href="https://www.facebook.com/profile.php?id=100009478044036" className="fab fa-facebook-f"></a>
+              <a href="https://twitter.com/?lang=ru" className="fab fa-twitter"></a>
+              <a href="https://www.instagram.com/" className="fab fa-instagram"></a>
+              <a href="https://ru.linkedin.com/" className="fab fa-linkedin"></a>
+              <a href="https://ru.pinterest.com/" className="fab fa-pinterest"></a>
             </div>
 
-            <div class="links">
-              <a as={Link} to="/">home</a>
-              <a as={Link} to="/menu">menu</a>
-              <a as={Link} to="/about">about</a>
-              <a as={Link} to="/products">products</a>
-              <a as={Link} to="/review">review</a>
-              <a as={Link} to="/contact">contact</a>
-              <a as={Link} to="/blogs">blogs</a>
-            </div>
+            <Navbar className="links">
+              <Nav.Link as={Link} to="/">home</Nav.Link>
+              <Nav.Link as={Link} to="/menu">menu</Nav.Link>
+              <Nav.Link as={Link} to="/about">about</Nav.Link>
+              <Nav.Link as={Link} to="/products">products</Nav.Link>
+              <Nav.Link as={Link} to="/review">review</Nav.Link>
+              <Nav.Link as={Link} to="/contact">contact</Nav.Link>
+              <Nav.Link as={Link} to="/blogs">blogs</Nav.Link>
+            </Navbar>
           </section>
         </body>
       </Router>
