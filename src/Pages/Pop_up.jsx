@@ -61,7 +61,7 @@ function Pop_up(props) {
                         left: 20%;
                         z-index: var(--bs-modal-zindex);
                         display: flex;
-                        width: 800px;
+                        width: calc(50% - 400px);
                         height: 100%;
                         
                        
