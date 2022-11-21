@@ -4,6 +4,113 @@ export default class Contact extends Component {
     render() {
         return (
             <>
+            <style type='text/css'>
+                    {`
+                    .about .row{
+                        display: flex;
+                        align-items: center;
+                        background:var(--black);
+                        flex-wrap: wrap;
+                    }
+                    
+                    .about .row .image{
+                        flex:1 1 45rem;
+                    }
+                    
+                    .about .row .image img{
+                        width: 100%;
+                    }
+                    .about .row .content{
+                        flex:1 1 45rem;
+                        padding:2rem;
+                    }
+                    
+                    .about .row .content h3{
+                        font-size: 3rem;
+                        color:#fff;
+                    }
+                    
+                    .about .row .content p{
+                        font-size: 1.6rem;
+                        color:#ccc;
+                        padding:1rem 0;
+                        line-height: 1.8;
+                    }
+                    .heading{
+                        text-align: center;
+                        color:#fff;
+                        text-transform: uppercase;
+                        padding-bottom: 3.5rem;
+                        font-size: 4rem;
+                    }
+                    
+                    .heading span{
+                        color:var(--main-color);
+                        text-transform: uppercase;
+                    }
+                    .btn{
+                        margin-top: 1rem;
+                        display: inline-block;
+                        padding:.9rem 3rem;
+                        font-size: 1.7rem;
+                        color:#fff;
+                        background: var(--main-color);
+                        cursor: pointer;
+                    }
+                    
+                    .btn:hover{
+                        letter-spacing: .2rem;
+                    }
+                    .contact .row{
+                        display: flex;
+                        background:var(--black);
+                        flex-wrap: wrap;
+                        gap:1rem;
+                    }
+                    
+                    .contact .row .map{
+                        flex:1 1 45rem;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    
+                    .contact .row form{
+                        flex:1 1 45rem;
+                        padding:5rem 2rem;
+                        text-align: center;
+                    }
+                    
+                    .contact .row form h3{
+                        text-transform: uppercase;
+                        font-size: 3.5rem;
+                        color:#fff;
+                    }
+                    
+                    .contact .row form .inputBox{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                        background:var(--bg);
+                        border:var(--border);
+                    }
+                    
+                    .contact .row form .inputBox span{
+                        color:#fff;
+                        font-size: 2rem;
+                        padding-left: 2rem;
+                    }
+                    
+                    .contact .row form .inputBox input{
+                        width: 100%;
+                        padding:2rem;
+                        font-size: 1.7rem;
+                        color:#fff;
+                        text-transform: none;
+                        background:none;
+                    }
+            `}
+                </style>
                 <section class="contact" id="contact">
 
                     <h1 class="heading"> <span>contact</span> us </h1>
